@@ -1,0 +1,6 @@
+# Translate the text from Arabic to English
+text_arabic = "خاصة العصور على جهازي من شركة غوغل"
+translated_text = translator.translate(text_arabic, src="ar", dest="en").text
+
+# Print the translated text
+print("Translated text:", translated_text)
